@@ -76,7 +76,8 @@ body{
     border-radius:12px 0  0 12px ;
     right: 0;
 }
-.prev:active , .next:active{
+.prev:active ,
+.next:active{
     background-color: rgb(255, 251, 251);
 }
 .points{
@@ -91,4 +92,9 @@ body{
 }
 .points span.active{
     background-color:gray;
+}
+.footer{
+    background-color:rgb(243, 134, 152);
+    padding: 20px;
+    text-align: center;
 }
