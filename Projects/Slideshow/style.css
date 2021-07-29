@@ -9,3 +9,51 @@ body{
     padding: 20px;
     background-color:rgba(253, 191, 202, 0.74);
 }
+.container {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(245, 204, 224);
+}
+.slideshow{
+    width: 640px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+.slides{
+    position: relative;
+}
+.slide{
+    display: none;
+    position: relative;
+}
+.slide.active{
+    display: block;
+}
+.slide img{
+    width: 100%;
+}
+.slide div{
+    background-color: rgba(132, 0, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 44px;
+    transition: min-height 0.5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide div:hover{
+    min-height:100%;
+}
+.slide p{
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 2rem;
+    transition: font-size 0.5s;
+}
+.slide p:hover{
+    font-size: 5rem;
+}
