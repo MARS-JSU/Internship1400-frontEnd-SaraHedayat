@@ -78,3 +78,16 @@ body{
 .prev:active , .next:active{
     background-color: rgb(255, 251, 251);
 }
+.points{
+    margin-top: 10px;
+}
+.points span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:rgb(192, 190, 190);
+}
+.points span.active{
+    background-color:gray;
+}
