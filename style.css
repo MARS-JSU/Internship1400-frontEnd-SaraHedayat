@@ -80,6 +80,7 @@ body{
 }
 .points{
     margin-top: 10px;
+    padding: 10px;
 }
 .points span{
     width: 15px;
@@ -90,4 +91,9 @@ body{
 }
 .points span.active{
     background-color:gray;
+}
+.footer{
+    background-color:rgb(243, 134, 152);
+    padding: 20px;
+    text-align: center;
 }
