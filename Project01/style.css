@@ -11,9 +11,9 @@ head{
     background-color:#fcfcfc;
     text-align:center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height:60px;
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0;
@@ -61,7 +61,7 @@ article{
 .slides{
     display:flex;
     justify-content: center;
-    margin-bottom:40px;
+    margin-bottom:50px;
 }
 .slides span{
     padding: 6px 14px;
@@ -80,4 +80,86 @@ article{
 .slides .number1:hover{
     background-color:gray;
     color: #fff;
+}
+.about{
+    width:60%;
+    margin: auto;
+    padding: 50px;
+    margin-bottom:0;
+}
+.about h2{
+    font-size:30px;
+    text-align: center;
+}
+.about img{
+    width: 50%;
+    display:block;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about p{
+    font-size: 18px;
+    text-align: center;
+}
+.box{
+    width: 85%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.Footer{
+    padding-top:30px;
+    height: 200px;
+    width:200px;
+    margin: 0 0 0 15%;
+}
+.Footer a{
+    text-decoration:underline;
+}
+.Blogposts{
+    padding-top:30px;
+    height: 200px;
+    width:200px;
+    margin: 0 auto;
+}
+.Populartags{
+    padding-top:30px;
+    height: 250px;
+    width:250px;
+    margin: 0 auto;
+    padding-right: 15
+}
+.box h2, .box p{
+    padding-bottom: 20px;
+}
+.lorem , .ipsum{
+    margin-bottom: 20px;
+}
+.lorem:hover ,
+.ipsum:hover{
+    background-color:#b1b1b1;
+}
+.Blogposts img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.Blogposts p{
+    float: right;
+    margin: 15px;
+}
+.spans{
+    line-height:35px;
+}
+.Populartags span{
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+.Populartags .span1{
+    background-color:black;
+    padding: 8px;
+    color:white;
 }
