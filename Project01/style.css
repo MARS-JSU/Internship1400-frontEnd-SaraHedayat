@@ -1,8 +1,10 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     scroll-behavior: smooth;
+}
+body{
+    font-family: "Karma" , sans-serif ;
 }
 head{
     width: 90%;
@@ -81,7 +83,6 @@ article{
 }
 .boxes p, .boxes h2{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 .box1 , .box2 , .box3 , .box4, .box5, .box6, .box7 , .box8
 {   
@@ -96,7 +97,6 @@ article{
     padding: 6px 14px;
     margin: 2px;
     font-size:18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .slides span:hover{
     background-color:#000;
