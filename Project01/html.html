@@ -11,14 +11,29 @@
 </head>
 <body dir="center">
    <head>
-           <ul class="nav">
-                <li class="nav-item"><div><i class="fa fa-bars fa-x"></i></div></li>
-                <li class="nav-item"><p>My Food</p></li>
-                <li class="nav-item"><p>Mail</p></li>
+           <ul class="head">
+                <li class="head-item">
+                    <a href="#" onclick="openSlideMenu()">
+                        <i class="fa fa-bars fa-x"></i>
+                    </a>
+                </li>
+                <li class="head-item">
+                    <p>My Food</p>
+                </li>
+                <li class="head-item">
+                    <p>Mail</p>
+                </li>
             </ul>
    </head>
+
+   <div id="menu" class= "nav">
+       <a href="#" class="close" onclick="closeSlideMenu()">Close Menu</a>
+       <a href="#Food" class="">Food</a>
+       <a href="#About" class="">About</a>
+   </div>
+
    <article>
-       <div class="container">
+       <div class="container" id="Food">
            <div class="boxes">
                 <div class="box1">
                    <img src="images/sandwich.jpg">
@@ -104,7 +119,7 @@
        </div>
    </article>
    <hr>
-   <div class="about">
+   <div class="about" id="About">
        <h2>About Me, The Food Man</h2>
        <img src="images/chef.jpg">
        <h2>I am Who I Am!</h2>
@@ -161,6 +176,7 @@
             </div>
         </div>
    </footer>
-
+<script src="script.js">  
+</script>
 </body>
 </html>

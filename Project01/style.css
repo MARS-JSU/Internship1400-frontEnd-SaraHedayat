@@ -22,6 +22,9 @@ head{
     font-size: 25px;
     list-style-type: none;
 }
+.head li a{
+    color:#000;
+}
 .head-item i:hover{
     padding: 10px;
     cursor: pointer;
@@ -33,7 +36,30 @@ head{
 .head-item p{
     margin: 10px;
 }
-
+.nav {
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition : 0.5s;
+}
+.nav a{
+    display:block;
+    padding: 20px 30px;
+    font-size:25px;
+    text-decoration: none;
+    color:#000;
+}
+.nav a:hover{
+    background-color: #b1b1b1;
+    transition: 0.3s;
+}
 
 article{
     margin-bottom: 40px;
