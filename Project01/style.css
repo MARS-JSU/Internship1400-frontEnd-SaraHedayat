@@ -7,7 +7,7 @@ head{
     width: 90%;
     padding-top:10px;
 }
-.nav{
+.head{
     background-color:#fcfcfc;
     text-align:center;
     display: flex;
@@ -18,21 +18,23 @@ head{
     position: sticky;
     top: 0;
 }
-.nav-item{
+.head-item{
     font-size: 25px;
     list-style-type: none;
 }
-.nav-item i:hover{
+.head-item i:hover{
     padding: 10px;
     cursor: pointer;
     background-color: #b1b1b1;
 }
-.nav-item i{
+.head-item i{
     padding:10px;
 }
-.nav-item p{
+.head-item p{
     margin: 10px;
 }
+
+
 article{
     margin-bottom: 40px;
 }
