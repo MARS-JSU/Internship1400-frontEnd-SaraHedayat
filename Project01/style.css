@@ -138,9 +138,10 @@ article{
     text-align: center;
 }
 .box{
-    width: 85%;
+    width: 90%;
+    
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 hr{
@@ -150,41 +151,30 @@ hr{
     margin: auto;
     padding:20px;
 }
-
-.Footer{
-    padding-top:30px;
-    height: 200px;
-    width:200px;
-    margin: 0 0 0 15%;
+footer{
+    display: flex;
+    justify-content:space-around;
+}
+.Footer,
+.Blogposts,
+.Populartags{
+    height:auto;
+    width:30%;
+    margin:15px;
 }
 .Footer a{
     text-decoration:underline;
     cursor: pointer;
 }
-.Blogposts{
-    padding-top:30px;
-    height: 200px;
-    width:200px;
-    margin: 0 auto;
-}
-.Populartags{
-    padding-top:30px;
-    height: 250px;
-    width:250px;
-    margin: 0 auto;
-    padding-right: 15
-}
+
 .box h2, .box p{
     padding-bottom: 20px;
 }
 .lorem , .ipsum{
-    height: 50px;
+    height: 60px;
     padding:20px;
-}
-.lorem p , .ipsum p{
-    position: absolute;
-    float: left;
-    right: 46%;
+    display:flex;
+    justify-content:left;
 }
 .lorem:hover ,
 .ipsum:hover{
@@ -194,22 +184,22 @@ hr{
     float: left;
     width: 50px;
     height: 50px;
+    margin-right: 8px;
 }
 .Blogposts p{
-    float: right;
-    margin: 15px;
+    padding-top:10px;
 }
 .spans{
     line-height:35px;
 }
 .Populartags span{
-    justify-content: space-between;
-    background-color: gray;
+    background-color: #616161;
     color: white;
-    padding: 5px;
+    padding: 0 8px;
+    margin-bottom:16px;
 }
 .Populartags .span1{
     background-color:black;
-    padding: 8px;
+    padding:2px 8px;
     color:white;
 }
