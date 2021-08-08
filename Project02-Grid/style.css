@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Vazir';
+    src:url(fonts/vazir.eot);
+    src:url(fonts/vazir.eot?#iefix) format("embedded-opentype"),
+     url(fonts/vazir.woff2) format("woff2"),
+     url(fonts/Vazir.woff) format("woff"),
+     url(fonts/Vazir.ttf) format("trutype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Vazir' , Arial, Helvetica, sans-serif;
+    line-height:2;
+    background-color:#f3f3f3;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+p{
+    margin: 0.85rem 0;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+}
+#main-nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #333;
+}
+#main-nav a{
+    color:#fff;
+}
+#main-nav .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+    align-items: center;
+}
+#main-nav .logo{
+    font-family: 'staatliches' , cursive;
+    color: #fff;
+    justify-self:end;
+}
+#main-nav ul{
+    display: flex;
+}
+#main-nav li a{
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+}
+#main-nav li a.active{
+    background-color: #06b995;
+    color: #fff;
+    border-radius: 5px;
+}
+.text-primary{
+    color:#06b995;
+}
