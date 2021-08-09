@@ -177,3 +177,66 @@ img{
   .page-container article {
     grid-row: 1 / span 3;
   }
+  #main-footer {
+    background: #333;
+    color: #fff;
+  }
+  
+  #main-footer a {
+    color: #fff;
+  }
+  
+  #main-footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+  }
+  
+  #main-footer .footer-container div:last-child {
+    background: #444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    font-size: 0.75rem;
+  }
+  
+  #main-footer .footer-container div:last-child p{
+    text-align: center;
+  }
+  
+  #main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #main-footer .footer-container input[type='submit'] {
+    width: 90%;
+  }
+  .list li {
+    padding: .5rem 0;
+    border-bottom: #555 dotted 1px;
+    width: 90%;
+  }
+  
+  .list li a:hover {
+    color: #06b995 !important;
+  }
+  
+  #article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+  }
+  
+  #article .meta .category {
+    margin-top: 0.4rem;
+  }
+  
+  #categories .list li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
