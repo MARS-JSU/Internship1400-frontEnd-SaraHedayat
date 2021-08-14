@@ -76,6 +76,7 @@ body {
     cursor: pointer;
     padding:10px;
     border-radius: 15px;
+    border:1px solid #fc6565;
 }
 .clearall:hover{
     background-color: #fc6565;
