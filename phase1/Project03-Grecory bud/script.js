@@ -2,8 +2,8 @@
 let input = document.querySelector("#Add");
 let addbtn = document.querySelector("#btn");
 let listItem = document.querySelector(".list")
-let clearAll = document.querySelector(".clearall")
-
+let clearAll = document.querySelector(".clearall");
+let check = document.querySelector("ul");
 showItems();
 
 addbtn.onclick = () =>{
@@ -35,6 +35,14 @@ function showItems(){
     input.style.fontFamily="Roboto";
     input.style.fontSize="18px";
 }
+
+check.addEventListener("click" , ev =>{
+    if(ev.target.tagName == 'LI')
+    {
+        ev.target.classList.toggle("checked");
+    }
+})
+
 //Delete item
 function deleteItem(index){
     let getLocalStorage = localStorage.getItem("items");
