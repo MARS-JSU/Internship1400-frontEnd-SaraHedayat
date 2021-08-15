@@ -2,6 +2,7 @@
 let input = document.querySelector("#Add");
 let addbtn = document.querySelector("#btn");
 let listItem = document.querySelector(".list")
+let clearAll = document.querySelector(".clearall")
 
 showItems();
 
@@ -39,6 +40,14 @@ function deleteItem(index){
     let getLocalStorage = localStorage.getItem("items");
     list = JSON.parse(getLocalStorage);
     list.splice(index , 1);  //remove li
+    //update local storage
+    localStorage.setItem("items" , JSON.stringify(list));
+    showItems();
+}
+
+//Delete All Items
+clearAll.onclick = ()=>{
+    list= [ ];
     //update local storage
     localStorage.setItem("items" , JSON.stringify(list));
     showItems();
