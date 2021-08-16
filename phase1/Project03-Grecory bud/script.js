@@ -16,7 +16,7 @@ addbtn.onclick = () =>{
     }else{
         list = JSON.parse(getLocalStorage);
     }
-    if(data == null || data ==" " || data.trim()==" "){
+    if(data == null || data ==" " || data.trim()==""){
         alert("Please enter something!")
     }
     else{
@@ -38,6 +38,7 @@ function showItems(){
         li += ` <li> ${element} <span class="delete-btn" onclick="deleteItem(${index})";><i class="fas fa-trash"></i></span><span class="edit"><i class="fas fa-pen"></i></span></li>`;
     });
     listItem.innerHTML = li;
+    listItem.style.transition=0.5;
     input.value = "";
     input.style.fontFamily="Roboto";
     input.style.fontSize="18px";
