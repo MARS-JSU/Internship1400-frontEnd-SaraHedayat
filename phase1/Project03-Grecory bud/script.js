@@ -4,6 +4,8 @@ let addbtn = document.querySelector("#btn");
 let listItem = document.querySelector(".list")
 let clearAll = document.querySelector(".clearall");
 let check = document.querySelector("ul");
+let items= document.querySelectorAll(".list li");
+
 showItems();
 
 addbtn.onclick = () =>{
@@ -14,9 +16,14 @@ addbtn.onclick = () =>{
     }else{
         list = JSON.parse(getLocalStorage);
     }
-    list.push(data);
-    localStorage.setItem("items" , JSON.stringify(list));
-    showItems();
+    if(data == null || data ==" " || data.trim()==" "){
+        alert("Please enter something!")
+    }
+    else{
+        list.push(data.trim());
+        localStorage.setItem("items" , JSON.stringify(list));
+        showItems();
+    }
 }
 //Add li in ul
 function showItems(){
