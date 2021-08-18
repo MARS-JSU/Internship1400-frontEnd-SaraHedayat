@@ -59,3 +59,9 @@ function deleteItem(index) {
     })
     showItems(todos);
 }
+//delete all  Items
+clearAll.onclick = () => {
+    localStorage.clear();
+    todos = [];
+    showItems(todos);
+}
