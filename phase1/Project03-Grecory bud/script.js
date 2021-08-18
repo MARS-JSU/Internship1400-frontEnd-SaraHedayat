@@ -50,3 +50,12 @@ function showItems(todos){
     listItem.innerHTML = li;
     input.value = "";
 }
+//delete one Item
+function deleteItem(index) {
+    todos.splice(index, 1)
+    localStorage.clear();
+    todos.forEach(function(item, index, array) {
+        localStorage.setItem(index, item);
+    })
+    showItems(todos);
+}
