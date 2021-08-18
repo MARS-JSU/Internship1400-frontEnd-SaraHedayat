@@ -5,66 +5,48 @@ let listItem = document.querySelector(".list")
 let clearAll = document.querySelector(".clearall");
 let check = document.querySelector("ul");
 let items= document.querySelectorAll(".list li");
-
-showItems();
+//function that can get all elements of local storage
+function allStorage() {
+    let values = []
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        values.push(localStorage.getItem(key));
+    }
+    return values;
+}
+let todos = allStorage();
+showItems(todos);
 
 addbtn.onclick = () =>{
-    let data= input.value;
-    let getLocalStorage = localStorage.getItem("items");
-    if(getLocalStorage == null){
-        list = [ ];
-    }else{
-        list = JSON.parse(getLocalStorage);
-    }
-    if(data == null || data ==" " || data.trim()==""){
+    let data = input.value;
+    if (
+        data == null ||
+        data == " " ||
+        data.trim() == ""
+    ) {
         alert("Please enter something!")
-    }
-    else{
-        list.push(data.trim());
-        localStorage.setItem("items" , JSON.stringify(list));
-        showItems();
+    } else {
+        todos.push(data.trim());
+        todos.forEach(function(item, index, array) {
+            localStorage.setItem(index, item);
+        })
+        showItems(todos);
     }
 }
 //Add li in ul
-function showItems(){
-    let getLocalStorage = localStorage.getItem("items");
-    if(getLocalStorage == null){
-        list = [ ];
-    }else{
-        list = JSON.parse(getLocalStorage);
-    }
-    let li = " ";
-    list.forEach((element , index) =>{
-        li += ` <li> ${element} <span class="delete-btn" onclick="deleteItem(${index})";><i class="fas fa-trash"></i></span><span class="edit"><i class="fas fa-pen"></i></span></li>`;
+function showItems(todos){
+    let li = "";
+    todos.forEach((element, index) => {
+        li += `<li id='li${index}'>
+                    <span class="todo-text" id='text${index}'> ${element} </span> 
+                    <span class="delete-btn" onclick="deleteItem(${index})";>
+                        <i class="fas fa-trash"></i>
+                    </span>
+                        <span id='edit${index}' class="edit" onclick="editItem(${index})";>
+                            <i class="fas fa-pen"></i>
+                        </span>
+                </li>`;
     });
     listItem.innerHTML = li;
-    listItem.style.transition=0.5;
     input.value = "";
-    input.style.fontFamily="Roboto";
-    input.style.fontSize="18px";
-}
-
-check.addEventListener("click" , ev =>{
-    if(ev.target.tagName == 'LI')
-    {
-        ev.target.classList.toggle("checked");
-    }
-})
-
-//Delete item
-function deleteItem(index){
-    let getLocalStorage = localStorage.getItem("items");
-    list = JSON.parse(getLocalStorage);
-    list.splice(index , 1);  //remove li
-    //update local storage
-    localStorage.setItem("items" , JSON.stringify(list));
-    showItems();
-}
-
-//Delete All Items
-clearAll.onclick = ()=>{
-    list= [ ];
-    //update local storage
-    localStorage.setItem("items" , JSON.stringify(list));
-    showItems();
 }
