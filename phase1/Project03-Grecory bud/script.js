@@ -65,3 +65,13 @@ clearAll.onclick = () => {
     todos = [];
     showItems(todos);
 }
+//Edit Item
+function editItem(index,element) {
+    let liText = document.querySelector(`#text${index}`)
+    let newTodo = prompt('Edit your Item', liText.innerHTML.trim());
+    todos[index] = newTodo;
+    todos.forEach(function(item, i, array) {
+        localStorage.setItem(i, item);
+    })
+    showItems(todos);
+}
