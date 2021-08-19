@@ -20,9 +20,9 @@ showItems(todos);
 addbtn.onclick = () =>{
     let data = input.value;
     if (
-        data == null ||
-        data == " " ||
-        data.trim() == ""
+        data === null ||
+        data === " " ||
+        data.trim() === ""
     ) {
         alert("Please enter something!")
     } else {
