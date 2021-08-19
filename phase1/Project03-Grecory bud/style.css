@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Meriweather';
+    src: url(Font/Merriweather-Black.ttf) format('truetype'), 
+            url(Font/Merriweather-Bold.ttf) format('truetype'), 
+            url(Font/Merriweather-Light.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right,blue ,#e5eff1);
+}
+.box{
+    width: 730px;
+    min-height:500px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius:15px;
+    box-shadow: 0px 3px 15px 0px;
+    position: relative;
+}
+.title{
+    text-align: center;
+    font-family: 'Roboto', monospace, sans-serif;
+    letter-spacing:3px;
+    color: #0b0b5b;
+    padding: 80px 0 30px 0; 
+}
+.box h1:hover{
+    letter-spacing:5px;
+    transition:letter-spacing 0.5s;
+}
+.box input[type="text"]{
+    width:60%;
+    position: absolute;
+    left: 18%;
+    width: 400px;
+    border:3px solid #3a57fc;
+    border-radius: 6px  3px 3px 6px;
+    background-image:linear-gradient(to top,lightblue,#ebeef5) ;
+    padding: 2px 25px;
+    font-family: 'Merriweather';
+    font-size:20px;
+}
+.box input[type="text"]:focus{
+    outline:#3a57fc;
+}
+.box button{
+    position: absolute;
+    right: 118px;
+    width: 80px;
+    padding:8px;
+    background-color: lightblue;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    font-family: 'Roboto',monospace, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.box button:hover{
+    background-color: #32aff8;
+    transition: background-color 0.3s;
+}
+.list{
+    position: relative;
+    top:40px;
+    padding:px 15px;
+    height:200px;
+    overflow-y:auto;
+}
+.list li{
+    width:70%;
+    margin: auto;
+    position: relative;
+    list-style-type: none;
+    height:25px;
+    line-height:20px;
+    background-color: #f2f2f2;
+    border-radius:15px;
+    padding: 2px 10px;
+    font-family: 'Roboto';
+    letter-spacing:2px;
+    margin-top:30px;
+}
+.list li .delete-btn{
+    position: absolute;
+    right: 20px;
+    color:red;
+}
+.list li .edit{
+    position: absolute;
+    right:50px;
+    color:#36ff2f;
+}
+li:hover{
+    color: #832283;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+    color:purple;
+    /*background-color: #e0e0e0;*/
+}
+.clearall{
+    letter-spacing:4px;
+    color: #fc6565;
+    font-family: 'Roboto',monospace, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom:8%;
+    left: 35%;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 15px;
+    border:1px solid #fc6565;
+}
+.clearall:hover{
+    background-color: #fc6565;
+    color: #fff;
+    transition: all 0.5s;
+}
