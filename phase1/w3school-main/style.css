@@ -521,3 +521,127 @@ background-color: #282A35;
 .boot-btn2:hover{
     background-color: black;
 }
+.footer{
+    background-color: #353846;
+    height: 170px;
+    position: relative;
+}
+.footer .b1{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-left:  40px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b2{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin:0px  15px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b3{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 9px 0;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b4{
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 931px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 8px;
+
+}
+.footer .social{
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 1331px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.b1,.b2,.b3:hover{
+    background-color: rgb(230, 222, 222);
+}
+.b1:hover{
+    background-color: rgb(230, 222, 222);
+
+}
+.b2:hover{
+    background-color: rgb(230, 222, 222);
+
+}
+.b4:hover{
+    color: #04aa6df2;
+}
+.footer2{
+    background-color: #353846;
+    height: 290px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.footer2 p{
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.finish{
+    color: white;
+    background-color: #04aa6df2;
+    height: 45px;
+    width: 690px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 25px;
+    left: 425px;
+    padding: 10px 0;
+
+}
+.fab fa-facebook-square{
+    margin-right: 10px;
+}
+.social i{
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px;
+}
+.finish i{
+    display: block;
+    font-size: 80px;
+}
