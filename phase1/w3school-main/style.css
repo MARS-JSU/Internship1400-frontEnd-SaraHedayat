@@ -286,3 +286,238 @@ body{
 .btn32:hover{
     background-color: #086845;
 }
+.coursess{
+    background-color: #282A35;
+    height: 1140px;
+    position: relative;
+    margin-top: -20px;
+}
+.coursess .left{
+    width: 50%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+}
+.coursess .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.coursess .left .php{
+    height:280px ;
+    width: 627px;
+    background-color: #FFC0C7;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .left .php h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .php p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.php-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.php-btn:hover{
+   background-color: black;
+}
+.coursess .left .java{
+    height:280px ;
+    width: 627px;
+    background-color: #f3ecea;
+    margin:60px auto;
+    border-radius: 10px;
+}
+.coursess .left .java h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .java p{
+    font-size: 18px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+.java-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.java-btn:hover{
+   background-color: black;
+}   
+.coursess .left .w3{
+    height:280px ;
+    width: 627px;
+    background-color: #96d4d4;
+    margin:60px auto;
+    border-radius: 10px;
+}
+
+.w3 h1{
+text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .w3 p{
+    font-size: 18px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+.w3css{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.w3css:hover{
+   background-color: black;
+}   
+
+
+
+
+
+.coursess .right .jQuery{
+    height:280px ;
+    width: 627px;
+    background-color: #FFF4A3;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .right .jQuery h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .jQuery p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.jQuery-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.jQuery-btn:hover{
+   background-color: black;
+}
+
+.coursess .right .C{
+    height:280px ;
+    width: 627px;
+    background-color: #D9EEE1;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .right .C h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .C p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.C-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.C-btn:hover{
+   background-color: black;
+}
+
+.coursess .right .boot{
+    height:280px ;
+    width: 627px;
+    background-color: #e7e9eb;
+    margin:80px auto;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 00px;
+    left: 64px;
+}
+.coursess .right .boot h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .boot p{
+          font-size: 18px;
+          padding: 23px 0;
+          text-align: center;
+}
+.boot-btn,.boot-btn2{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+   
+}
+.boot-btn:hover{
+    background-color: black;
+}
+.boot-btn2{
+margin-bottom: 5px;
+background-color: #282A35;
+
+}
+.boot-btn2:hover{
+    background-color: black;
+}
