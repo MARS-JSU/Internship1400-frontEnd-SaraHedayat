@@ -102,3 +102,106 @@ body{
     color:#fff;
     background-color: #04aa6d;
 }
+.section1{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: #282a35;
+}
+.section1 .description{
+    width:50%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    padding-top: 80px;
+    text-align: center;
+}
+.section1 .description h1{
+    color: #fff;
+    font-size:120px;
+    font-weight: bold;
+}
+.section1 .description p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section1 .description .btn1 ,
+.section1 .description .btn2 ,
+.section1 .description .btn3{
+    width:200px;
+    margin: auto;
+    margin-top: 30px;
+    padding:15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.section1 .description .btn1{
+    color:#fff;
+    background-color: #04aa6d;
+}
+.section1 .description .btn1:hover{
+    background-color:#059862;
+}
+.section1 .description .btn2{
+    color:#000;
+    background-color: #fff4a3;
+}
+.section1 .description .btn2:hover{
+    background-color: #f7e562;
+}
+/*.section1 .description .btn2 span{
+    border:1px solid #000;
+    border-radius:20px;
+    padding: 2px;
+}*/
+.section1 .description .btn3{
+    color:#000;
+    background-color: #fff;
+
+}
+.section1 .description .btn3:hover{
+    background-color: #e7e9eb;
+}
+.section1 .codeexample{
+    width:50%;
+    height:100%;
+    position: absolute;
+    right: 0;
+}
+.section1 .codeexample .container{
+    width:90%;
+    height:420px;
+    margin-top: 100px;
+    padding-left: 30px;
+    background-color: #e7e9e7;
+    border-radius: 7px;
+}
+.section1 .codeexample h1{
+    color:#000;
+    margin-bottom:20px;
+    padding-top:30px;
+}
+.section1 .codeexample .code{
+    position: absolute;
+    width: 80%;
+    height:240px;
+    border-left:6px solid #04aa6d;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-top:15px;
+
+}
+.section1 .codeexample .container p{
+    color:#fff;
+    background-color: #04aa6d;
+    position: absolute;
+    bottom:50px;
+    padding:15px 40px;
+    border-radius:40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.section1 .codeexample .container p:hover{
+    background-color:#059862;
+}
