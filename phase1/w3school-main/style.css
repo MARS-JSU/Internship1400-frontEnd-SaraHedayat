@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Source Sans Pro";
+    letter-spacing:1px
+}
+.header{
+    height: 80px;
+    position: relative;
+}
+.header .h-left{
+    width:50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    width:15%;
+    height: 100%;
+}
+.logo img{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    right: 0;
+    width:85%;
+    height: 100%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding:25px 8px;
+    color:#000;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    background-color:#04aa6d;
+    color:#fff;
+}
+.menu ul li span{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 11px;
+    padding:2px  5px;
+    background-color: #fff;
+    color:black;
+}
+.menu ul li i{
+    cursor: pointer;
+}
+.header .h-right{
+    width:50%;
+    height: 100%;
+    position:absolute;
+    right:0;
+    padding-left:240px;
+}
+.h-right ul{
+    list-style-type:none;
+}
+.h-right ul li{
+    display: inline-block;
+    margin:22px 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.h-right ul li i{
+    margin:5px;
+}
+.h-right ul li i:hover{
+    color: #04aa6d;
+    cursor: pointer;
+}
+.h-right ul li span{
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.h-right ul li #login{
+    color:#fff;
+    background-color: #04aa6d;
+    padding:8px 40px;
+}
+.h-right ul li #login:hover{
+    background-color: #059862;
+}
+.h-right ul li span:hover{
+    color:#fff;
+    background-color: #04aa6d;
+}
