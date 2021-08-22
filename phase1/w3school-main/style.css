@@ -205,3 +205,84 @@ body{
 .section1 .codeexample .container p:hover{
     background-color:#059862;
 }
+.section2{
+    height: 550px;
+    background-color: #D9EEE1!important;
+    position: relative;
+}
+.section2 .left2{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+} 
+.section2 .right2{
+   width: 50%;
+   height: 100%;
+   position: absolute;
+   right: 0;
+} 
+.title2{
+   font-size: 110px;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+}
+.desc2{
+   font-weight: bold;
+   font-size: 19px;
+   margin-top: 10px;
+}
+.btn12, .btn22{
+   width: 200px;
+   background-color: gray;
+   margin:20px auto;
+   padding: 10px 25px;
+   border-radius: 30px;
+   font-size: 18px;
+}
+.btn12{
+   background-color: #059862;
+   color: white;
+}
+.btn12:hover{
+    background-color: #0a6141;
+}
+.btn22{
+   background-color: #282A35;
+   color: white;
+}
+.btn22:hover{
+    background-color: #000000;
+}
+.container2{
+   width: 90%;
+   height: 420px;
+   margin:70px auto;
+   background-color: #e7e9eb;
+   border-radius: 7px;
+   padding: 25px 15px;
+}
+.code2{
+   width: 80%;
+   height: 240px;
+   background-color: white;
+   margin: 15px auto;
+   border-left: 5px solid #059862 ;
+   padding: 14px ;
+}
+.btn32{
+    padding: 8px;
+    background-color: #04AA6D;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    height: 45px;
+    padding: 13px 0;
+    font-size: 18px;
+    color: white;
+}
+.btn32:hover{
+    background-color: #086845;
+}
