@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Source Sans Pro";
+    letter-spacing:1px
+}
+.header{
+    height: 80px;
+    position: relative;
+}
+.header .h-left{
+    width:50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    width:15%;
+    height: 100%;
+}
+.logo img{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    right: 0;
+    width:85%;
+    height: 100%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding:25px 8px;
+    color:#000;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    background-color:#04aa6d;
+    color:#fff;
+}
+.menu ul li span{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 11px;
+    padding:2px  5px;
+    background-color: #fff;
+    color:black;
+}
+.menu ul li i{
+    cursor: pointer;
+}
+.header .h-right{
+    width:50%;
+    height: 100%;
+    position:absolute;
+    right:0;
+    padding-left:240px;
+}
+.h-right ul{
+    list-style-type:none;
+}
+.h-right ul li{
+    display: inline-block;
+    margin:22px 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.h-right ul li i{
+    margin:5px;
+}
+.h-right ul li i:hover{
+    color: #04aa6d;
+    cursor: pointer;
+}
+.h-right ul li span{
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.h-right ul li #login{
+    color:#fff;
+    background-color: #04aa6d;
+    padding:8px 40px;
+}
+.h-right ul li #login:hover{
+    background-color: #059862;
+}
+.h-right ul li span:hover{
+    color:#fff;
+    background-color: #04aa6d;
+}
+.section1{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: #282a35;
+}
+.section1 .description{
+    width:50%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    padding-top: 80px;
+    text-align: center;
+}
+.section1 .description h1{
+    color: #fff;
+    font-size:120px;
+    font-weight: bold;
+}
+.section1 .description p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section1 .description .btn1 ,
+.section1 .description .btn2 ,
+.section1 .description .btn3{
+    width:200px;
+    margin: auto;
+    margin-top: 30px;
+    padding:15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.section1 .description .btn1{
+    color:#fff;
+    background-color: #04aa6d;
+}
+.section1 .description .btn1:hover{
+    background-color:#059862;
+}
+.section1 .description .btn2{
+    color:#000;
+    background-color: #fff4a3;
+}
+.section1 .description .btn2:hover{
+    background-color: #f7e562;
+}
+/*.section1 .description .btn2 span{
+    border:1px solid #000;
+    border-radius:20px;
+    padding: 2px;
+}*/
+.section1 .description .btn3{
+    color:#000;
+    background-color: #fff;
+
+}
+.section1 .description .btn3:hover{
+    background-color: #e7e9eb;
+}
+.section1 .codeexample{
+    width:50%;
+    height:100%;
+    position: absolute;
+    right: 0;
+}
+.section1 .codeexample .container{
+    width:90%;
+    height:420px;
+    margin-top: 100px;
+    padding-left: 30px;
+    background-color: #e7e9e7;
+    border-radius: 7px;
+}
+.section1 .codeexample h1{
+    color:#000;
+    margin-bottom:20px;
+    padding-top:30px;
+}
+.section1 .codeexample .code{
+    position: absolute;
+    width: 80%;
+    height:240px;
+    border-left:6px solid #04aa6d;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-top:15px;
+
+}
+.section1 .codeexample .container p{
+    color:#fff;
+    background-color: #04aa6d;
+    position: absolute;
+    bottom:50px;
+    padding:15px 40px;
+    border-radius:40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.section1 .codeexample .container p:hover{
+    background-color:#059862;
+}
+.section2{
+    height: 550px;
+    background-color: #D9EEE1!important;
+    position: relative;
+}
+.section2 .left2{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+} 
+.section2 .right2{
+   width: 50%;
+   height: 100%;
+   position: absolute;
+   right: 0;
+} 
+.title2{
+   font-size: 110px;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+}
+.desc2{
+   font-weight: bold;
+   font-size: 19px;
+   margin-top: 10px;
+}
+.btn12, .btn22{
+   width: 200px;
+   background-color: gray;
+   margin:20px auto;
+   padding: 10px 25px;
+   border-radius: 30px;
+   font-size: 18px;
+}
+.btn12{
+   background-color: #059862;
+   color: white;
+}
+.btn12:hover{
+    background-color: #0a6141;
+}
+.btn22{
+   background-color: #282A35;
+   color: white;
+}
+.btn22:hover{
+    background-color: #000000;
+}
+.container2{
+   width: 90%;
+   height: 420px;
+   margin:70px auto;
+   background-color: #e7e9eb;
+   border-radius: 7px;
+   padding: 25px 15px;
+}
+.code2{
+   width: 80%;
+   height: 240px;
+   background-color: white;
+   margin: 15px auto;
+   border-left: 5px solid #059862 ;
+   padding: 14px ;
+}
+.btn32{
+    padding: 8px;
+    background-color: #04AA6D;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    height: 45px;
+    padding: 13px 0;
+    font-size: 18px;
+    color: white;
+}
+.btn32:hover{
+    background-color: #086845;
+}
+.coursess{
+    background-color: #282A35;
+    height: 1140px;
+    position: relative;
+    margin-top: -20px;
+}
+.coursess .left{
+    width: 50%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+}
+.coursess .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.coursess .left .php{
+    height:280px ;
+    width: 627px;
+    background-color: #FFC0C7;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .left .php h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .php p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.php-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.php-btn:hover{
+   background-color: black;
+}
+.coursess .left .java{
+    height:280px ;
+    width: 627px;
+    background-color: #f3ecea;
+    margin:60px auto;
+    border-radius: 10px;
+}
+.coursess .left .java h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .java p{
+    font-size: 18px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+.java-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.java-btn:hover{
+   background-color: black;
+}   
+.coursess .left .w3{
+    height:280px ;
+    width: 627px;
+    background-color: #96d4d4;
+    margin:60px auto;
+    border-radius: 10px;
+}
+
+.w3 h1{
+text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .left .w3 p{
+    font-size: 18px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+.w3css{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.w3css:hover{
+   background-color: black;
+}   
+
+
+
+
+
+.coursess .right .jQuery{
+    height:280px ;
+    width: 627px;
+    background-color: #FFF4A3;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .right .jQuery h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .jQuery p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.jQuery-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.jQuery-btn:hover{
+   background-color: black;
+}
+
+.coursess .right .C{
+    height:280px ;
+    width: 627px;
+    background-color: #D9EEE1;
+    margin:80px auto;
+    border-radius: 10px;
+}
+.coursess .right .C h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .C p{
+          font-size: 18px;
+          padding: 24px 0;
+          text-align: center;
+}
+.C-btn{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    margin:8px auto;
+}
+.C-btn:hover{
+   background-color: black;
+}
+
+.coursess .right .boot{
+    height:280px ;
+    width: 627px;
+    background-color: #e7e9eb;
+    margin:80px auto;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 00px;
+    left: 64px;
+}
+.coursess .right .boot h1{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.coursess .right .boot p{
+          font-size: 18px;
+          padding: 23px 0;
+          text-align: center;
+}
+.boot-btn,.boot-btn2{
+    text-align: center;
+    font-size: 18px;
+    background-color: #282A35;
+    height: 40px;
+    width: 160px;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+   
+}
+.boot-btn:hover{
+    background-color: black;
+}
+.boot-btn2{
+margin-bottom: 5px;
+background-color: #282A35;
+
+}
+.boot-btn2:hover{
+    background-color: black;
+}
+.footer{
+    background-color: #353846;
+    height: 170px;
+    position: relative;
+}
+.footer .b1{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-left:  40px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b2{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin:0px  15px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b3{
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+    padding: 9px 0;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.footer .b4{
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 931px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 8px;
+
+}
+.footer .social{
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 1331px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.b1,.b2,.b3:hover{
+    background-color: rgb(230, 222, 222);
+}
+.b1:hover{
+    background-color: rgb(230, 222, 222);
+
+}
+.b2:hover{
+    background-color: rgb(230, 222, 222);
+
+}
+.b4:hover{
+    color: #04aa6df2;
+}
+.footer2{
+    background-color: #353846;
+    height: 290px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.footer2 p{
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.finish{
+    color: white;
+    background-color: #04aa6df2;
+    height: 45px;
+    width: 690px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 25px;
+    left: 425px;
+    padding: 10px 0;
+
+}
+.fab fa-facebook-square{
+    margin-right: 10px;
+}
+.social i{
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px;
+}
+.finish i{
+    display: block;
+    font-size: 80px;
+}
