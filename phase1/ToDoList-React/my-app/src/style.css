@@ -42,3 +42,8 @@
     border-radius: 1px 7px 7px 1px;
     box-shadow: 10px 0px 15px 3px rgba(0,0,0,0.5);
 }
+.btn:hover{
+    background-color: #59035c;
+    color: #fff;
+    transition:all 0.5s;
+}
